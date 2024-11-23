@@ -13,4 +13,5 @@ The model uses the following attributes to predict the race winner:
 Combined the data collected in [Veronica Nigro's repository](https://github.com/veronicanigro/Formula_1/tree/master/data%20modelling) with average lap times of drivers obtained from [Ergast API](https://ergast.com/mrd/)
 
 **Model Details**
-The F1 Winner Predictor uses a Support Vector Machine (SVM) as the core algorithm to classify the race winner based on the provided attributes.
+The F1 Winner Predictor uses a Support Vector Machine (SVM) (kernel : polynomial) as the core algorithm to classify the race winner based on the provided attributes.
+The model exhibited an accuracy of about 95%.
